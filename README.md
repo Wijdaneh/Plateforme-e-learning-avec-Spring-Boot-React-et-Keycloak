@@ -259,14 +259,14 @@ Authorization: Bearer <access_token>
 * Réponse API `/me`
 
 ## 📸 Démonstration
-* 
+* Configuration Keycloak
 Authentification Admin
 ![Authentification Admin](docs/images/AuthentificationAdmin.JPG)
 
-* 
+* Gestion des Rôles
 ![Gestion des Rôles](docs/images/Les_Roles.JPG)
 
-* 
+* Création Client React
 ![Création Client React](docs/images/Création_de_Client.JPG)
 ---
 
