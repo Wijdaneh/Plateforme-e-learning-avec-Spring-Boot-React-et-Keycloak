@@ -258,6 +258,16 @@ Authorization: Bearer <access_token>
 * Interface React ADMIN
 * Réponse API `/me`
 
+## 📸 Démonstration
+* 
+Authentification Admin
+![Authentification Admin](docs/images/AuthentificationAdmin.JPG)
+
+* 
+![Gestion des Rôles](docs/images/Les_Roles.JPG)
+
+* 
+![Création Client React](docs/images/Création_de_Client.JPG)
 ---
 
 ## 🔧 Dépannage
