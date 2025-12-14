@@ -1,0 +1,58 @@
+# Backend Java/Spring Boot
+backend-springboot/target/
+backend-springboot/.classpath
+backend-springboot/.project
+backend-springboot/.settings/
+backend-springboot/.springbeans
+backend-springboot/.sts4-cache/
+backend-springboot/*.backup
+*.class
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# Frontend React/Node.js
+frontend-react/node_modules/
+frontend-react/dist/
+frontend-react/build/
+frontend-react/.env
+frontend-react/.env.local
+frontend-react/.env.development.local
+frontend-react/.env.test.local
+frontend-react/.env.production.local
+frontend-react/npm-debug.log*
+frontend-react/yarn-debug.log*
+frontend-react/yarn-error.log*
+frontend-react/package-lock.json
+frontend-react/.vscode/
+frontend-react/.idea/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Système
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+logs/
+
+# Docker temporaire
+keycloak/data/
+keycloak/postgres_data/
+
+# Autres
+*.iml
+.classpath
+.project
+.settings/
+bin/
