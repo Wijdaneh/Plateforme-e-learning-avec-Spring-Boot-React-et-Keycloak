@@ -49,26 +49,13 @@ L'université déploie une nouvelle plateforme e-learning. La sécurité, la ges
 
 ## 🏗️ Architecture
 
-```mermaid
-graph TB
-    A[Utilisateur] --> B[Application React]
-    B --> C[Keycloak Server]
-    C --> D[Authentification]
-    D --> B
-    B --> E[Spring Boot API]
-    E --> F[(Base de données)]
-    
-    subgraph "Infrastructure"
-        C
-        E
-        F
-    end
-    
-    style A fill:#e1f5fe
-    style B fill:#f3e5f5
-    style C fill:#fff3e0
-    style E fill:#e8f5e8
-````
+![Architecture de la plateforme e-learning](docs/images/architecture-diagram.png)
+
+### Composants :
+1. **Frontend (React)** : Interface utilisateur (port 3000/5173)
+2. **Keycloak Server** : Authentification OIDC/OAuth2 (port 8081)
+3. **Backend (Spring Boot)** : API REST sécurisée (port 8080)
+4. **Base de données** : Stockage H2/PostgreSQL
 
 **Flux d'authentification** :
 
